@@ -1,0 +1,46 @@
+site_name: Spring Cloud中国社区
+site_url: http://docs.springcloud.cn
+site_description: Spring Cloud中国社区文档,Spring Cloud中国社区官网,Spring Cloud中国社区,致力于为Spring Boot或Spring Cloud技术人员提供分享和交流的平台! www.springcloud.cn,springcloud.cn,spring coud中文
+site_author: 许进
+repo_url: https://github.com/springcloud
+copyright: Copyright &copy; 2016-2020 <a href="http://blog.xujin.org">许进博客</a>,<a href="http://springcloud.cn">Spring Cloud中国社区</a>
+
+theme_dir: mkdocs_bootswatch/flatly
+
+pages:
+- 首页: index.md
+
+- project:
+    - Quick Start: project/QuickStart.md
+    - Spring Cloud Config: project/SpringCloudConfig.md
+    - Spring Cloud Netflix: project/SpringCloudNetflix.md
+    - Spring Cloud Bus: project/SpringCloudBus.md
+    - Spring Cloud for Cloud Foundry: project/SpringCloudforCloudFoundry.md
+    - Spring Cloud Cloud Foundry Service Broker: project/SpringCloudforCloudFoundry.md
+    - Spring Cloud Cloud Foundry Service Broker: project/SpringCloudCloudFoundryServiceBroker.md
+    - Spring Cloud Consul: project/SpringCloudConsul.md
+    - Spring Cloud Security: project/SpringCloudSecurity.md
+    - Spring Cloud Sleuth: project/SpringCloudSleuth.md
+    - Spring Cloud Data Flow: project/SpringCloudDataFlow.md
+    - Spring Cloud Stream: project/SpringCloudStream.md
+    - Spring Cloud Stream Modules: project/SpringCloudStreamModules.md
+    - Spring Cloud Task: project/SpringCloudTask.md
+    - Spring Cloud Zookeeper: project/SpringCloudZookeeper.md
+    - Spring Cloud for Amazon Web Services: project/SpringCloudforAmazonWebServices.md
+    - Spring Cloud Connectors: project/SpringCloudConnectors.md
+    - Spring Cloud CLI: project/SpringCloudCLI.md
+- Spring Cloud翻译文档:
+    - Spring Cloud Eureka: user-guide/eureka.md
+    - 声明式REST客户端Feign: user-guide/feign.md
+    - Spring Cloud Bus: user-guide/bus.md
+    - Spring Cloud Config: user-guide/config.md
+    - Spring Cloud sleuth: user-guide/sleuth.md
+    - Spring Cloud stream: user-guide/stream.md
+    - Spring Cloud zuul: user-guide/zuul.md
+    - Spring Cloud ribbon: user-guide/ribbon.md
+- 源码分析: source.md
+
+markdown_extensions:
+    - toc:
+        permalink: '#'
+
